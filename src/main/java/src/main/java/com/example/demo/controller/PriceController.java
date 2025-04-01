@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/prices")
-// @CrossOrigin(origins = "http://localhost:3000")  // Allow React frontend
+ @CrossOrigin(origins = "http://localhost:3000")  // Allow React frontend
 public class PriceController {
     @Autowired
     private PriceGridService priceGridService;
